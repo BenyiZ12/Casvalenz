@@ -1,16 +1,16 @@
 @font-face {
-    font-family: "MyCustomFont";
+    font-family: "Cinzel-Regular";
     src: url(Cinzel-Regular.otf);
 }
 
 body,html{
-    font-family: "MyCustomFont";
+    font-family: "Cinzel-Regular";
     height: 100%;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center ;
-    background-image: url('background.webp');
+    background-image: url('Background.webp');
     background-size: cover;
  }
 
@@ -64,4 +64,5 @@ p {
 .boton2:hover {
     background-color: #ffffff;
     color: #000000;
+
 }
