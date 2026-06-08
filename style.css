@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Cinzel-Regular";
+    src: url('fonts/Cinzel-Regular.otf') format('opentype');
+}
+
+body,html{
+    font-family: "Cinzel-Regular";
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-image: url('images/background.webp');
+    background-size: cover;
+ }
+
+
+h1 {
+    color: #f1f1f1;
+    font-size: 70px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h2 {
+    color: #ffffff; 
+    font-size: 25px;
+    margin-right: 80px;
+    margin-left: 80px;
+    position: absolute;
+    top: 150px;
+    left: 45%;
+    transform: translateX(-50%);
+}
+p {
+    color: #ffffff; 
+    font-size: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
+    text-align: justify;
+    background-color: #00000065;
+    border: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.boton1 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #00000065;
+    border: 0px solid;
+    border-color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px; 
+    margin-top: 20px;
+}
+.boton1:hover {
+    background-color: #ffffff31;
+    color: #000000;
+}
+.boton2 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #00000065;
+    border: 0px solid;
+    border-color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px; 
+    margin-top: 20px;
+}
+.boton2:hover {
+    background-color: #ffffff31;
+    color: #000000;
+}
+
+.boton1 img,
+.boton2 img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    display: block;
+}
+
+.icon-small { width: 20px; height: 20px; }
+.icon-medium { width: 36px; height: 36px; }
+.icon-large { width: 56px; height: 56px; }
